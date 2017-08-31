@@ -17,36 +17,6 @@ Create new app:
 rails new emergency_compliment -G
 ```
 
-Set up routes - example:
-```
-# in config/routes.rb
-get "/", to: "compliments#index"
-get "/:name", to: "compliments#show"
-```
-
-Set up controller - example:
-```
-# in terminal
-rails g controller compliments
-
-
-# inside the compliments controller
-def index
-end
-
-def show
-end
-```
-
-Set up views folder structure - example:
-```
-- views/
-  - layouts/
-  - compliments/
-    - index.html.erb
-    - show.html.erb
-```
-
 ## Useful Rsources
 
 - [Rails Docs](http://guides.rubyonrails.org/index.html)
