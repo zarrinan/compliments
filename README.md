@@ -64,6 +64,10 @@ Style really hard with css.
 Make it so that anytime the page is loaded or refreshed, the background color changes.
 
 
+#### Show All Compliments
+
+Add an extra page that shows all of the compliments at the same time.
+
 #### Related Readings
 
 - **HTTP and Networking**
